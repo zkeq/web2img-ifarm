@@ -24,7 +24,7 @@
 			content="无需上传文件的多功能图片批量处理程序,-Multi-function picture batch processing v3.0 No need to upload files">
 		<meta property=og:description
 			content="可转换格式psd转jpg、webp转jpg、png无损压缩、svg压缩、heic转jpg、heif转jpg、tiff转jpg、hdr转jpg、png转jpg、psd转png、gif转webp，指出输入psd、psb、hdr、heic、heif、tiff、tif、bmp、tga、xcf、miff、dcm、xpm、pcx、fits、ppm、pgm、pfm、mng、dds、otb，可批量添加图片水印和文字水印、批量调整图片的宽度和高度、旋转图片、翻转图片、修剪图片、批量图片重命名">
-		<meta property=og:image content=cdn/webp2jpg_v3_ui.jpg>
+		<meta property=og:image content=https://s-gz-2220-tool.oss.dogecdn.com/webp2jpg-online/v3.0/webp2jpg_v3_ui.jpg>
 		<meta property=og:url content=https://renzhezhilu.github.io/webp2jpg-online />
 		<meta property=og:type content=article>
 		<link rel=apple-touch-icon href=favicon.png>
@@ -175,46 +175,46 @@
 	window.CACHE_FN = _ => {
 		let cdnList = [{
 				name: 'app.js',
-				url: ['app_v3.2.1.js']
+				url: ['js/app_v3.2.1.js']
 			}, {
 				name: 'avif_enc_worker_all_in.js',
-				url: ['avif_enc_worker_all_in.js']
+				url: ['js/avif_enc_worker_all_in.js']
 			}, {
 				name: 'imagequant_worker_all_in.js',
-				url: ['imagequant_worker_all_in.js']
+				url: ['js/imagequant_worker_all_in.js']
 			}, {
 				name: 'squoosh_oxipng_worker_all_in.js',
-				url: ['squoosh_oxipng_worker_all_in.js']
+				url: ['js/squoosh_oxipng_worker_all_in.js']
 			}, {
 				name: 'mozjpeg_enc_worker_all_in.js',
-				url: ['mozjpeg_enc_worker_all_in.js']
+				url: ['js/mozjpeg_enc_worker_all_in.js']
 			}, {
 				name: 'svgo_worker_all_in.js',
-				url: ['svgo_worker_all_in.js']
+				url: ['js/svgo_worker_all_in.js']
 			}, {
 				name: 'wasm-im_worker_all_in.js',
-				url: ['wasm-im_worker_all_in.js']
+				url: ['js/wasm-im_worker_all_in.js']
 			}, {
 				name: 'logo.png',
-				url: ['logo.png']
+				url: ['images/logo.png']
 			}, {
 				name: '1920x1080.jpg',
-				url: ['1920x1080.jpg']
+				url: ['images/1920x1080.jpg']
 			}, {
 				name: '750x1350.jpg',
-				url: ['750x1350.jpg']
+				url: ['images/750x1350.jpg']
 			}, {
 				name: '500x500.jpg',
-				url: ['500x500.jpg']
+				url: ['images/500x500.jpg']
 			},
 			// 
 			{
 				name: 'magickApi.js',
-				url: ['magickApi.js']
+				url: ['js/magick/magickApi.js']
 			},
 			{
 				name: 'magick.js',
-				url: ['magick.js']
+				url: ['js/magick/magick.js']
 			}
 		]
 		// let cdnList = [{
@@ -261,7 +261,7 @@
 
 		cdnList = cdnList.map(m => {
 			// m.url = ['./cdn/v3.0/' + m.url[0]]
-			m.url = ['https://s-gz-2220-tool.oss.dogecdn.com/webp2jpg-online/' + m.url[0]]
+			m.url = ['https://s-gz-2220-tool.oss.dogecdn.com/webp2jpg-online/v3.0/' + m.url[0]]
             
 			// m.url = ['https://cdn-6lo.pages.dev/v3.0/' + m.url[0]]
 			return m
