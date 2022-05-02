@@ -1,0 +1,36 @@
+.logo p,.logo span,.logo h2 a:nth-of-type(1) {
+    display:none !important;
+}
+
+.red_text{
+    display:none !important;
+}
+
+.other div:nth-of-type(3){
+    display:none !important;
+}
+
+.moreTool div:nth-of-type(3){
+    display:flex !important;
+}
+.moreTool div:nth-of-type(4){
+    display:none !important;
+}
+.moreTool div:nth-of-type(6){
+    display:none !important;
+}
+.moreTool div:nth-of-type(7){
+    display:none !important;
+}
+
+/* .more div:nth-of-type(3){
+    display:none !important;
+} */
+
+.logo div:nth-of-type(3){
+    display:none !important
+}
+
+.hr_y,.logo div:nth-of-type(3){
+    display:none !important
+}
